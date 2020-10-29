@@ -115,26 +115,28 @@ img {
 
 .text-banner p{
     color: white;
-    font-family: 'Roboto';
+    font-family: var(--font);
     font-size: 30px;
 }
 
 .text-banner a{
     color: white;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: var(--font);
     padding: 10px 45px;
     background-color: var(--red);
     border-radius: 10px;
     position: relative;
     top: 40px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .text-banner a:hover{
     box-shadow: 0px 0px 64px -1px black;
 }
 
-/* Games - Section */
 .games{
     width: 100%;
     height: 121px;
@@ -161,6 +163,57 @@ img {
     opacity: 0.6;
     transition: 0.3s;
     min-width: 120px;
+}
+
+.sobre{
+    height: 31.25em;
+    background-color: var(--blue);
+    position: relative;
+}
+
+.sobre-angulos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.angulo{
+    height: 24.125em;
+    width: 100%;
+    background-color: var(--backgroud);
+    transform: skewY(-4.3deg);
+}
+
+.container-sobre{
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.content-sobre {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-sobre {
+    width: 50%;
+    text-align: justify;
+}
+
+.texto-sobre h2 {
+    margin-bottom: 1em;
+    font-size: 2.18em;
+}
+
+.texto-sobre p {
+    font-size: 1.25em;
+}
+
+.content-sobre img {
+    max-width: 31.875em;
 }
 
 /* 1199px */
