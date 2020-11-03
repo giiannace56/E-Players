@@ -105,9 +105,6 @@ img {
     margin-left: 5%;
 }
 
-    .image-banner img:hover {
-        transform: scale(1.2);
-    }
 
 .text-banner{
     width: 40%;
@@ -224,7 +221,7 @@ img {
     max-width: 31.875em;
 }
 
-.matches{
+.partidas{
     color: white;
     width: 100%;
     height: 7.5em;
@@ -233,30 +230,30 @@ img {
     justify-content: center;
 }
 
-.content-matches{
+.content-partidas{
     width: 85%;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.live-matches{
+.live-partidas{
     text-transform: uppercase;
     width: 30%;
     margin: 0 6%;
     display: flex;
 }
 
-.later-matches{
+.proximas-partidas {
     width: 70%;
     display: flex;
 }
 
-.live-matches h2, .later-matches h2{
+.live-partidas h2, .proximas-partidas h2{
     margin-right: 20px;
 }
 
-.teams-matches{
+.confrontos{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -265,7 +262,7 @@ img {
     opacity: 1;
 }
 
-.teams-matches:hover{
+.confrontos:hover{
     opacity: 1;
     border: 4px solid var(--blue);
 }
@@ -274,17 +271,17 @@ img {
     margin-right: 10px;
 }
 
-.teams-matches p, img{
+.confrontos p, img{
     padding: 0 13px;
 }
 
-.news{
+.Noticias{
     width: 100%;
     height: 61.25em;
     background-color: #1E1C21;
 }
 
-.news h2{
+.Noticias h2{
     color: white;
     font-size: 35px;
     margin-left: 10%;
@@ -292,13 +289,13 @@ img {
     padding-left: 0px;
 }
 
-.content-news{
+.content-noticias{
     width: 80%;
     margin: 0 10%;
     display: flex;
 }
 
-.news-news{
+.aba-noticias{
     width: 80%;
 }
 
@@ -306,7 +303,7 @@ img {
     width: 20%;
 }
 
-.bloco-news{
+.bloco-noticias{
     width: 90%;
     margin-bottom: 4%;
     display: flex;
@@ -314,7 +311,7 @@ img {
     justify-content: space-between;
 }
 
-.news-bloco{
+.noticias-bloco{
     width: 14.81em;
     height: 22.87em;
     background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
@@ -324,12 +321,12 @@ img {
     transition: 0.2s;
 }
 
-.news-bloco:hover{
+.noticias-bloco:hover{
     transform: scale(1.1);
 }
 
 
-.team-tabela{
+.times-tabela{
     color: white;
     margin-bottom: 8px;
     padding: 10px 0px;
@@ -340,11 +337,11 @@ img {
     transition: 0.2s;
 }
 
-.team-tabela:hover{
+.times-tabela:hover{
     border: 5px solid var(--blue);
 }
 
-.team-tabela p{
+.times-tabela p{
     padding-top: 10px;
 }
 
@@ -355,13 +352,13 @@ img {
     align-items: center;
 }
 
-.text-bloco{
+.texto-bloco{
     color: white;
     margin: 10px;
     margin-top: 0;
 }
 
-.text-bloco h3{
+.texto-bloco h3{
     font-family: 18px;
     text-transform: uppercase;
 }
@@ -371,7 +368,7 @@ img {
     padding: 0;
 }
 
-.tabela-news{
+.tabela-infos{
     width: 14.81em;
     height: 46.93em;
     background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
@@ -517,11 +514,11 @@ img {
     justify-content: flex-end;
 }
 
-.buttons-footer ul{
+.botoes-footer ul{
     display: flex;
 }
 
-.buttons-footer a{
+.botoes-footer a{
     color: white;
     padding: 10px;
     margin: 5px;
