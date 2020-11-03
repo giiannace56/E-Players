@@ -82,7 +82,7 @@ img {
 
 .banner{
     width: 100%;
-    height: 607px;
+    height: 37.93em;
     background: rgb(2,0,36);
     background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 7%, rgba(236,20,20,1) 100%);
 }
@@ -98,6 +98,11 @@ img {
 
 .image-banner img{
     width: 90%;
+    
+}
+
+.image-banner img:hover {
+    transform: scale(1.4);
 }
 
 .image-banner{
@@ -114,25 +119,25 @@ img {
 
 .text-banner h1{
     color: white;
-    font-size: 90px;
+    font-size: 5.625em;
     font-family: var(--font);
 }
 
 .text-banner p{
     color: white;
     font-family: var(--font);
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .text-banner a{
     color: white;
-    font-size: 30px;
+    font-size: 1.875em;
     font-family: var(--font);
     padding: 10px 45px;
     background-color: var(--red);
-    border-radius: 10px;
+    border-radius: 0.625em;
     position: relative;
-    top: 40px;
+    top: 2.5em;
     text-decoration:none;
     text-transform: uppercase;
     font-weight: bold;
@@ -144,7 +149,7 @@ img {
 
 .games{
     width: 100%;
-    height: 121px;
+    height: 7.6em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +172,7 @@ img {
     width: 90%;
     opacity: 0.6;
     transition: 0.3s;
-    min-width: 120px;
+    min-width: 7.5em;
 }
 
 .sobre{
@@ -256,7 +261,7 @@ img {
 .confrontos{
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 0.625em;
     border: 4px solid white;
     transition: 0.2s;
     opacity: 1;
@@ -268,7 +273,7 @@ img {
 }
 
 #espacamento{
-    margin-right: 10px;
+    margin-right: 0.625em;
 }
 
 .confrontos p, img{
@@ -277,16 +282,18 @@ img {
 
 .Noticias{
     width: 100%;
-    height: 61.25em;
+    height: 68.75em;
     background-color: #1E1C21;
+    margin-top: 1.25em;
 }
 
 .Noticias h2{
     color: white;
     font-size: 35px;
     margin-left: 10%;
-    padding: 30px;
+    padding: 1.875em;
     padding-left: 0px;
+    margin-top: 1px;
 }
 
 .content-noticias{
@@ -328,7 +335,7 @@ img {
 
 .times-tabela{
     color: white;
-    margin-bottom: 8px;
+    margin-bottom: 0.5em;
     padding: 10px 0px;
     border: 5px solid white;
     display: flex;
@@ -342,11 +349,11 @@ img {
 }
 
 .times-tabela p{
-    padding-top: 10px;
+    padding-top: 0.625em;
 }
 
 .placar-tabela{
-    width: 221px;
+    width: 13.875em;
     height: auto;
     display: flex;
     align-items: center;
@@ -354,7 +361,7 @@ img {
 
 .texto-bloco{
     color: white;
-    margin: 10px;
+    margin: 0.625em;
     margin-top: 0;
 }
 
@@ -425,7 +432,7 @@ img {
 
 .mapa-site-footer h4{
     color: white;
-    padding: 5px;
+    padding: 0.3125em;
     text-decoration: none;
 }
 
@@ -435,7 +442,7 @@ img {
 
 .mapa-site-footer a{
     color: white;
-    margin: 14px;
+    margin: 0.875em;
     transition: 0.2s;
     text-decoration: none;
 }
@@ -448,7 +455,7 @@ img {
 
 .social-medias-footer h4{
     color: white;
-    padding: 7px;
+    padding: 0.4375em;
     text-decoration: none;
 }
 
@@ -480,7 +487,7 @@ img {
 }
 
 .inferior-footer{
-    margin-bottom: 15px;
+    margin-bottom: 0.9375em;
     display: flex;
     justify-content: space-between;
     align-items: center;
