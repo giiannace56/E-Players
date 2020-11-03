@@ -409,7 +409,7 @@ img {
 }
 
 .links-uteis-footer h4{
-    color: white;
+    color: var(--red);
     text-decoration: underline;
 }
 
@@ -431,7 +431,7 @@ img {
 }
 
 .mapa-site-footer h4{
-    color: white;
+    color: var(--red);
     padding: 0.3125em;
     text-decoration: none;
 }
@@ -454,7 +454,7 @@ img {
 }
 
 .social-medias-footer h4{
-    color: white;
+    color: var(--red);
     padding: 0.4375em;
     text-decoration: none;
 }
@@ -481,8 +481,8 @@ img {
 
 .line-footer{
     width: 100%;
-    border: 1px solid #cdcdcd;
-    background-color: #cdcdcd;
+    border: 1px solid var(--red);
+    background-color : var(--red);
     margin: 25px 0;
 }
 
@@ -499,8 +499,7 @@ img {
 
 .logo-footer img{
     width: 100%;
-    max-width: 250px;
-    transition: 0.2s;
+    max-width: 15.626em;
 }
 
 .logo-footer img:hover{
