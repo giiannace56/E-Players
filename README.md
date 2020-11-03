@@ -1,2 +1,2 @@
 # E-Players
-Projeto do curso de dev 2020
+Projeto E_Players 2020 focado no desenvolvimento de habilidades de HTML e CSS
