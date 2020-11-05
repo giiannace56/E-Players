@@ -538,9 +538,39 @@ img {
 
 /* 1199px */
 @media screen and (max-width: 74.93em){
-           
-}
+    .header-top img {
+        transform: scale(0.8);
+    }
 
+    .header-top img:hover{
+        transform: scale(1.0);
+    }
+
+    .menu  {
+        font-size: 12px;
+        margin-right: 50px ;
+    }      
+
+    .text-banner h1 {
+        font-size: 46px;
+    }
+
+    .image-banner {
+        transform: scale(1.0);
+    }
+
+    .texto-sobre h2 {
+        font-size: 28px;
+    }
+
+    .texto-sobre p{
+        font-size: 16px;
+    }
+
+    .content-sobre img {
+        margin-left: 60px;
+    }
+}
 /* 991px */
 @media screen and (max-width: 61.93em){
    
