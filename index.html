@@ -1,151 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Players</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
     <link rel="stylesheet" href="css/style.css">
-</head>
-    <body>
-        <header class="header-top">
-            <div class="content flex-spbt-center">
-                <img src="img/Logo.svg" alt="logo E-players">
-                <nav class="menu">
-                    <ul class="flex-spbt-center">
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Campeonatos</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Notícias</a></li>
-                        <li><a href="#">Cadastro/Login</a></li>
-                    </ul>
-                    <a href="#" id="barra">
-                        <i class="fas fa-bars"></i>
-                    </a>
-                </nav>
+    <title>E-Players</title>
+</head> 
+<body>
+    
+    <header class="cabecalho">
+        <div class="content flex-content">
+            <img src="img/Logo.svg" alt="logo E-Players">
+            <nav class="menu-cabecalho">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Horarios</a></li>
+                    <li><a href="#">Campeonatos</a></li>
+                    <li><a href="#">Resultados</a></li>
+                    <li><a href="">Cadastro/login</a></li>
+                </ul>
+            </nav>
+            <a href="#" id="header-bars" onclick="botaoDoMenu()"><i class="fas fa-bars"></i></a> <!--Icone barras para mobile-->
+        </div>
+    </header>
+    <nav class="menu-cabecalho-response" id="menu-response">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Horarios</a></li>
+            <li><a href="#">Campeonatos</a></li>
+            <li><a href="#">Resultados</a></li>
+            <li><a href="">Cadastro/login</a></li>
+        </ul>
+    </nav>
+
+    <main class="banner">
+        <div class="content-banner">
+            <div class="img-banner">
+                <img src="img/pilotos.png" alt="Pilotos de formula 1">
             </div>
-        </header>
-        <main class="banner">
-            <div class="content-banner">
-                <div class="image-banner">
-                    <img src="img/pilotos.png" alt="Pilotos de formula 1">
+            <div class="texto-banner">
+                <h1>LIGA E-Players</h1>
+                <p>O maior portal de campeonatos online</p>
+                <a href="#">Inscreva-se</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="jogos">
+        <div class="content-jogos">
+            <a href="#" class="image-jogos"><img src="img/formula-1-logo-1-1 1.png" alt="Logo formula 1"></a>
+            <a href="#" class="image-jogos"><img src="img/logo-lol-300x131 1.png" alt="Logo League of Legends" id="league-legends-games"></a>
+            <a href="#" class="image-jogos"><img src="img/Counter-Strike-Logo-Transparent-PNG 1.png" alt="Logo Counter-Strike" id="counter-strike-games"></a>
+            <a href="#" class="image-jogos"><img src="img/4bcd537b6c034e297f0030cf08887426 1.png" alt="Logo Valorant"></a>
+            <a href="#" class="image-jogos"><img src="img/800px-FIFA_series_logo 1.png" alt="Logo Fifa"></a>
+        </div>
+    </section>
+
+    <section class="sobre">
+           <div class="angulacao">
+                <div class="angulo">
                 </div>
-                <div class="text-banner">
-                    <h1>LIGA E-PLAYERS</h1>
-                    <p>O maior portal de campeonatos online</p>
-                    <a href="#">Inscreva-se</a>
-                </div>
-            </div>
-        </main>
-        <section class="games">
-            <div class="content-games">
-                <a href="#"><img src="img/formula-1-logo-1-1 1.png" alt="Logo formula 1"></a>
-                <a href="#"><img src="img/logo-lol-300x131 1.png" alt="Logo League of Legends"></a>
-                <a href="#"><img src="img/Counter-Strike-Logo-Transparent-PNG 1.png" alt="Logo Counter-Strike"></a>
-                <a href="#"><img src="img/4bcd537b6c034e297f0030cf08887426 1.png" alt="Logo Valorant"></a>
-                <a href="#"><img src="img/800px-FIFA_series_logo 1.png" alt="Logo Fifa"></a>
-            </div>
-        </section>
-        <section class="sobre">
-            <div class="sobre-angulos">
-                <div class="angulo"> </div>
-            </div>
-            <div class="container-sobre">
-                <div class="content-sobre">
-                    <div class="texto-sobre">
+           </div>
+           <div class="container-sobre">
+               <div class="content-sobre">
+                   <div class="texto-sobre">
                        <h2>Como participar das ligas?</h2>
-                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit reiciendis aliquid dicta quibusdam at sapiente? Earum, aspernatur! Suscipit alias eveniet, autem odit culpa vero rem laudantium impedit quos consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit reiciendis aliquid dicta quibusdam at sapiente? Earum, aspernatur! Suscipit alias eveniet, autem odit culpa vero rem laudantium impedit quos consectetur.</p>
-                    </div> 
-                   <img src="img/ez.png" alt="ezreal personagem do lol">
-                </div>
-            </div>
-        </section>
-        <section class="partidas">
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the .<br>
+                        <br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen boook.</p>
+                   </div>
+                   <div class="image-sobre">
+                       <img src="img/ez.png" alt="ez lol">
+                   </div>
+               </div>
+           </div>
+    </section>
+
+    <section class="partidas">
         <div class="content-partidas">
-            <div class="live-partidas">
-                <h2>Ao <br>vivo</h2>
+            <div class="ao-vivo">
+                <div class="infos-partidas">
+                    <h2>Ao vivo</h2>
+                </div>
                 <div class="confrontos">
+                    <p>SK</p>
                     <img src="img/sk-logo.png" alt="logo time SK">
                     <p>vs</p>
                     <img src="img/flamengo-logo.png" alt="Logo time">
+                    <p>Flamengo</p>
                 </div>
             </div>
             <div class="proximas-partidas">
-                <h2>Em <br>Breve</h2>
-                <div class="confrontos">
+                <div class="ao-vivo">
+                    <h2>Em Breve</h2>
+                </div>
+                <div class="confrontos id="espacamento">
                     <p>SK</p>
                     <img src="img/sk-logo.png" alt="logo time SK">
-                    <p>VS</p>
+                    <p>vs</p>
                     <img src="img/flamengo-logo.png" alt="Logo time">
-                    <p>FLA</p>
+                    <p>Flamengo</p>
                 </div>
                 <div class="confrontos">
                     <p>SK</p>
                     <img src="img/sk-logo.png" alt="logo time SK">
-                    <p>VS</p>
+                    <p>vs</p>
                     <img src="img/flamengo-logo.png" alt="Logo time">
-                    <p>FLA</p>
+                    <p>Flamengo</p>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="Noticias">
         <h2>Noticias</h2>
-        <div class="content-noticias">
+        <div class="content-noticia">
             <div class="aba-noticias">
-                <div class="bloco-noticias">
-                    <div class="noticias-bloco">
+                <div class="bloco-noticia">
+                    <div class="noticia-bloco">
                         <div class="image-bloco">
                             <img src="img/capa-noticia3.png" alt="Capa da noticia">
                         </div>
-                        <div class="texto-bloco">
+                        <div class="text-bloco">
                             <h3>Titulo da noticia</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text .</p>
                         </div>
                     </div>
-                    <div class="noticias-bloco">
+                    <div class="noticia-bloco">
                         <div class="image-bloco">
                             <img src="img/capa-noticia2.png" alt="Capa da noticia">
                         </div>
-                        <div class="texto-bloco">
+                        <div class="text-bloco">
                             <h3>Titulo da noticia</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text .</p>
                         </div>
                     </div>
-                    <div class="noticias-bloco">
+                    <div class="noticia-bloco">
                         <div class="image-bloco">
                             <img src="img/capa-noticia1.png" alt="Capa da noticia">
                         </div>
-                        <div class="texto-bloco">
+                        <div class="text-bloco">
                             <h3>Titulo da noticia</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text .</p>
                         </div>
                     </div>
                 </div>
-                <div class="bloco-noticias">
-                    <div class="noticias-bloco">
+                <div class="bloco-noticia none-mobile">
+                    <div class="noticia-bloco">
                         <div class="image-bloco">
                             <img src="img/capa-noticia6.png" alt="Capa da noticia">
                         </div>
-                        <div class="texto-bloco">
+                        <div class="text-bloco">
                             <h3>Titulo da noticia</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text .</p>
                         </div>
                     </div>
-                    <div class="noticias-bloco">
+                    <div class="noticia-bloco">
                         <div class="image-bloco">
                             <img src="img/capa-noticia4.png" alt="Capa da noticia">
                         </div>
-                        <div class="texto-bloco">
+                        <div class="text-bloco">
                             <h3>Titulo da noticia</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text .</p>
                         </div>
                     </div>
-                    <div class="noticias-bloco">
+                    <div class="noticia-bloco">
                         <div class="image-bloco">
                             <img src="img/capa-noticia5.png" alt="Capa da noticia">
                         </div>
-                        <div class="texto-bloco">
+                        <div class="text-bloco">
                             <h3>Titulo da noticia</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text .</p>
                         </div>
@@ -153,8 +176,8 @@
                 </div>
             </div>
             <div class="content-tabela">
-                <div class="tabela-infos">
-                    <div class="times-tabela">
+                <div class="tabela-news">
+                    <div class="team-tabela">
                         <div class="placar-tabela">
                             <p>SK</p>
                             <img src="img/sk-logo.png" alt="Logo do time Sk">
@@ -162,9 +185,9 @@
                             <img src="img/flamengo-logo.png" alt="Logo do time Flamengo">
                             <p>FLA</p>
                         </div>
-                        <p>07/12/2020 20:00</p>
+                        <p>1/12/2020 19:00</p>
                     </div>
-                    <div class="times-tabela">
+                    <div class="team-tabela">
                         <div class="placar-tabela">
                             <p>SK</p>
                             <img src="img/sk-logo.png" alt="Logo do time Sk">
@@ -172,9 +195,9 @@
                             <img src="img/flamengo-logo.png" alt="Logo do time Flamengo">
                             <p>FLA</p>
                         </div>
-                        <p>08/12/2020 17:00</p>
+                        <p>1/12/2020 19:00</p>
                     </div>
-                    <div class="times-tabela">
+                    <div class="team-tabela">
                         <div class="placar-tabela">
                             <p>SK</p>
                             <img src="img/sk-logo.png" alt="Logo do time Sk">
@@ -182,9 +205,9 @@
                             <img src="img/flamengo-logo.png" alt="Logo do time Flamengo">
                             <p>FLA</p>
                         </div>
-                        <p>08/12/2020 18:00</p>
+                        <p>1/12/2020 19:00</p>
                     </div>
-                    <div class="times-tabela">
+                    <div class="team-tabela none-mobile2">
                         <div class="placar-tabela">
                             <p>SK</p>
                             <img src="img/sk-logo.png" alt="Logo do time Sk">
@@ -192,9 +215,9 @@
                             <img src="img/flamengo-logo.png" alt="Logo do time Flamengo">
                             <p>FLA</p>
                         </div>
-                        <p>08/12/2020 19:00</p>
+                        <p>1/12/2020 19:00</p>
                     </div>
-                    <div class="times-tabela">
+                    <div class="team-tabela none-mobile2">
                         <div class="placar-tabela">
                             <p>SK</p>
                             <img src="img/sk-logo.png" alt="Logo do time Sk">
@@ -202,9 +225,9 @@
                             <img src="img/flamengo-logo.png" alt="Logo do time Flamengo">
                             <p>FLA</p>
                         </div>
-                        <p>09/12/2020 21:00</p>
+                        <p>1/12/2020 19:00</p>
                     </div>
-                    <div class="times-tabela">
+                    <div class="team-tabela none-mobile2">
                         <div class="placar-tabela">
                             <p>SK</p>
                             <img src="img/sk-logo.png" alt="Logo do time Sk">
@@ -212,24 +235,16 @@
                             <img src="img/flamengo-logo.png" alt="Logo do time Flamengo">
                             <p>FLA</p>
                         </div>
-                        <p>10/12/2020 18:00</p>
+                        <p>1/12/2020 19:00</p>
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
+
     <footer class="footer">
         <div class="content-footer">
             <div class="superior-footer">
-                <div class="links-uteis-footer">
-                    <h4>Links Uteis</h4>
-                    <ul>
-                        <li><a href="#">Suporte</a></li>
-                        <li><a href="#">Central de ajuda</a></li>
-                        <li><a href="#">Regras de utilização</a></li>
-                        <li><a href="#">Entre em contato com nossa equipe</a></li>
-                    </ul>
-                </div>
                 <div class="mapa-site-footer">
                     <div class="mapa-content">
                         <h4>Mapa do Site</h4>
@@ -262,18 +277,22 @@
                     <a href="#"><img src="img/Logo.svg" alt="Logo E-Players"></a>
                 </div>
                 <div class="direitos-footer">
-                    <p>Todos os direitos reservados a <span>Giovanni Ribeiro Iannace </span>© 2020</p>
-                </div>
-                <div class="botoes-footer">
-                    <ul>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Ajuda</a></li>
-                        <li><a href="#">Contato
-                        </a></li>
-                    </ul>
+                    <p>Todos os direitos reservados a <span>Giovanni Ribeiro Iannace</span>© 2020</p>
                 </div>
             </div>
         </div>
     </footer>
 </body>
+<script>
+    function botaoDoMenu() {
+      var navMobile = document.getElementById("menu-response");
+
+      if (navMobile.style.display === "block") {
+        navMobile.style.display = "none";
+      } else {
+        navMobile.style.display = "block";
+      }
+    }
+ </script>
 </html>
+
